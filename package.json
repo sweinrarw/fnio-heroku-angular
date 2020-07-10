@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "dev": "ng serve",
     "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
@@ -51,7 +50,7 @@
     "typescript": "~3.9.5"
   },
   "engines": {
-    "node": "12.3",
-    "yarn": "1.22.0"
+    "node": "12.x",
+    "npm": "6.x"
   }
 }
