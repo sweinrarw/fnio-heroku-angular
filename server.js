@@ -7,5 +7,5 @@ app.use(express.static(distDir));
 app.listen(process.env.PORT || 8080);
 
 app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname + '/dist/dist/fnio-heroku-angular/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/fnio-heroku-angular/index.html'));
 });
