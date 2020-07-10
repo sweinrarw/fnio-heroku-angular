@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fnio-heroku-angular"
+    }
+  },
+  "defaultProject": "fnio-heroku-angular",
+  "cli": {
+    "analytics": "912c9f02-1d32-4c90-9440-ef1fe3311275"
+  }
 }
